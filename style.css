@@ -23,6 +23,7 @@ h3 {
     display: block;
     position: relative;
     text-align: center;
+    padding: 2em 16em;
 }
 
 .projects {
@@ -59,6 +60,22 @@ h3 {
     list-style: none;
   }
   
+.CTA {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-radius: 48px;
+  color: #2597EB;
+  border: solid 2px #2597EB;
+  background-color: #E9F3FE ;
+}
+
+.CTA:hover {
+  color: #fff;
+  border: solid 2px #2597EB;
+  background-color: #2597EB ;
+}
 
   .navbar a {
     text-decoration: none;
