@@ -11,6 +11,11 @@ html {
 html::before {
   opacity: calc(30 * 0.01);
 }
+* {
+  margin: 0px;
+  min-height: 100%;
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Nunito Sans';
@@ -31,16 +36,20 @@ h3 {
   }
 
 .intro {
-    display: block;
-    position: relative;
-    text-align: center;
-    padding: 2em 16em;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  padding: 1em 8em;
 }
 
 .projects {
-    display: block;
+    display: inline-flex;
+    flex-direction: row;
     position: relative;
-    text-align: center;
+    justify-content: center;
+    gap: 12px;
+    padding: .5em 8em;
 }
 
 .pmain {
@@ -74,10 +83,14 @@ h3 {
       float: right;
       display: block;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
 
+    .pmain {
+      width: 75vw;
+    }
+.projects {
+  display: inline-flex;
+  flex-direction: column;
+}
     .navbar.responsive {
       position: relative;
     }
@@ -108,8 +121,10 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   padding: 8px 24px;
+  width: max-content;
   border-radius: 48px;
   color: #2597EB;
+  align-self: center;
   border: solid 2px #2597EB;
   background-color: #E9F3FE ;
 }
@@ -229,7 +244,6 @@ h3 {
 .section-nav li {
 	margin-left: 1rem;
 }
-
 
 /** page layout **/
 .maintext {
