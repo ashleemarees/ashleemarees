@@ -11,6 +11,7 @@ html {
 html::before {
   opacity: calc(30 * 0.01);
 }
+
 * {
   margin: 0px;
   min-height: 100%;
