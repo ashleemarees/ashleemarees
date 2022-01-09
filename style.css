@@ -42,6 +42,7 @@ h3 {
   position: relative;
   text-align: center;
   padding: 1em 8em;
+  width: 100vw;
 }
 
 .projects {
@@ -51,6 +52,7 @@ h3 {
     justify-content: center;
     gap: 12px;
     padding: .5em 8em;
+    width: 100vw;
 }
 
 .pmain {
@@ -90,7 +92,8 @@ h3 {
     }
 .projects {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
     .navbar.responsive {
       position: relative;
