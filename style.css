@@ -81,27 +81,26 @@ h3 {
   }
   
   @media screen and (max-width: 600px) {
-    .navbar a:not(:nth-of-type(4)) {display: none;}
+    .navbar a:not(:first-child), .dropdown #mywork {
+      display: none;
+    }
     .navbar a.icon {
       float: right;
       display: block;
     }
-
     .pmain {
       width: 75vw;
     }
-.projects {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-    .navbar.responsive {
-      position: relative;
+   .projects {
+     display: inline-flex;
+     flex-direction: row;
+     flex-wrap: wrap;
     }
-
-    .navbar.responsive .icon {
+  }
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
       position: absolute;
-      display: inline-flex;
       right: 0;
       top: 0;
     }
@@ -110,8 +109,14 @@ h3 {
       display: block;
       text-align: left;
     }
+    .navbar.responsive .dropdown {float: none;}
+    .navbar.responsive .ddlist {position: relative;}
+    .navbar.responsive #mywork {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
   }
-  
   .navbar ul {
     margin-left: 120px;
     margin: 0;
@@ -145,7 +150,6 @@ h3 {
     position: relative;
     color: #010F18;
     line-height: 50px;
-    display: block;
     width: 10em;
   }
 
@@ -229,7 +233,7 @@ h3 {
 	text-decoration: none;
 	display: block;
 	padding: .125rem 0;
-	color: #ccc;
+	color: #000;
 	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
 }
 
@@ -249,7 +253,7 @@ h3 {
 	margin-left: 1rem;
 }
 
-/** page layout **/
+/** ptoject page layout **/
 .maintext {
 	display: grid;
 	grid-template-columns: 1fr 15em;

@@ -1,11 +1,8 @@
-$(document).ready(function() {
-    // Toggle menu on click
-    $("#navbar.responsive").click(function() {
-      toggleBodyClass(".navbar.responsive.icon");
-    });
-  
-    function toggleBodyClass(className) {
-      document.body.classList.toggle(className);
-    }
-  
-   });
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
