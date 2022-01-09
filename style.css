@@ -42,6 +42,7 @@ h3 {
   position: relative;
   text-align: center;
   padding: 1em 8em;
+  gap: 12px;
   width: 100vw;
 }
 
@@ -260,5 +261,5 @@ h3 {
 	max-width: 100em;
 	width: 90%;
 	margin: 0 auto;
+  padding: 1em 6em;
 }
-
