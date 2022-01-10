@@ -97,6 +97,10 @@ h3 {
      flex-direction: row;
      flex-wrap: wrap;
     }
+
+    .embedprotype {
+      display: none;
+    }
   }
   @media screen and (max-width: 600px) {
     .navbar.responsive {position: relative;}
@@ -117,6 +121,7 @@ h3 {
       width: 100%;
       text-align: left;
     }
+
   }
   .navbar ul {
     margin-left: 120px;
@@ -125,6 +130,11 @@ h3 {
     list-style: none;
   }
   
+  .textproject {
+    height: fit-content;
+    gap: 24px;
+  }
+
 .CTA {
   font-family: 'Nunito Sans';
   text-decoration: none;
@@ -242,8 +252,6 @@ h3 {
 .section-nav a:focus {
 	color: #666;
 }
-
-
 
 .section-nav ul, .section-nav ol {
 	list-style: none;
