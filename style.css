@@ -134,6 +134,9 @@ h3 {
     height: fit-content;
     gap: 24px;
   }
+.textproject h2 {
+  padding-top: 24px;
+}
 
 .CTA {
   font-family: 'Nunito Sans';
