@@ -115,12 +115,11 @@ h3 {
       position: absolute;
     }
     .navbar.responsive a.icon {
-      position: fixed;
+      position: static;
       left: 0;
       top: 0;
     }
     .navbar.responsive a {
-      float: left;
       text-align: left;
     }
     .navbar.responsive .dropdown {
@@ -128,7 +127,7 @@ h3 {
       position: fixed;
       top: 80px;
     }
-    
+
     .navbar.responsive .ddlist {
       position: absolute;
     }
