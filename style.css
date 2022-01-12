@@ -86,8 +86,9 @@ h3 {
       display: none;
     }
     .navbar a.icon {
-      float: right;
-      display: block;
+      display: inline-flex;
+      position: fixed;
+      top: 24px;
     }
     .pmain {
       width: 75vw;
@@ -125,7 +126,9 @@ h3 {
     .navbar.responsive .dropdown {
       display: inline-block;
       position: fixed;
+      top: 80px;
     }
+    
     .navbar.responsive .ddlist {
       position: absolute;
     }
