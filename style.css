@@ -90,9 +90,8 @@ h3 {
       position: absolute;
       left: 80px;
     }
-    .navbar {
-      display: inline-flex;
-      flex-direction: column;
+    .navbar .otherlink {
+      display: none;
     }
 
     .pmain {
@@ -125,16 +124,16 @@ h3 {
       position: absolute;
       left: 0px;
     } 
+    .navbar.responsive .otherlink {
+      display: none;
+    }
  /*   .navbar.responsive a {
       text-align: left;
       display: block;
       position: absolute;
       left: 0px;
     }
-    .navbar.responsive .otherlink {
-      text-align: left;
-      float: right;
-    }
+
     .navbar.responsive .dropdown {
       display: block;
       position: fixed;
