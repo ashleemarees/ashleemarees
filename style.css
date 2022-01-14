@@ -52,7 +52,7 @@ h3 {
   display: inline-flex;
   flex-direction: column;
   gap: 12px;
-  padding: 1em 12em;
+  padding: 1em 4em;
 }
 .projects {
     display: inline-flex;
@@ -139,7 +139,7 @@ h3 {
     }
 
     .sectionnav {
-      display: none;
+      visibility: collapse;
     }
 
     .mobileonlybutton {
@@ -163,8 +163,13 @@ h3 {
       border: solid 2px #2597EB;
       background-color: #2597EB ;
     } 
+    .intro {
+      padding: 0px;
+      padding-left: 8em;
+      text-align: left;
+    }
     .introp {
-      width: 100vw;
+      padding: 12px;
     }
   }
   @media screen and (max-width: 600px) {
