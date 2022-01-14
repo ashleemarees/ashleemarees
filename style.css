@@ -225,6 +225,7 @@ h3 {
 }
 
 .CTA {
+  display: inline-block;
   font-family: 'Nunito Sans';
   text-decoration: none;
   font-size: 16px;
