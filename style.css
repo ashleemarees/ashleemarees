@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800;900&display=swap');
 /* 1. Enable smooth scrolling */
 html {
 	scroll-behavior: smooth;
@@ -38,22 +38,38 @@ h3 {
 .mobileonlybutton {
   display: none;
 }
-
-.intro {
+.intromain {
   display: inline-flex;
   flex-direction: column;
   position: relative;
+  text-align: center;
   text-align: center;
   padding: 1em 8em;
   gap: 12px;
   width: 100vw;
 }
+.intro {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  text-align: center;
+  padding: 1em 28em 1em 10em;
+  gap: 12px;
+  width: 100vw;
+}
+.intro h1 {    
+  font-weight: 800;
+  font-size: 32px;
+}
+
 .introp {
   display: inline-flex;
   flex-direction: column;
   gap: 12px;
-  padding: 1em 4em;
+  text-align: left;
 }
+
 .projects {
     display: inline-flex;
     flex-direction: row;
@@ -168,7 +184,7 @@ h3 {
       padding-left: 8em;
       text-align: left;
     }
-    .introp {
+    .introp .intromain {
       padding: 12px;
     }
   }
