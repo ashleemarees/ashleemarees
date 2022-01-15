@@ -222,6 +222,7 @@ h3 {
   }
 .textproject h2 {
   padding-top: 24px;
+  padding-bottom: 12px;
 }
 
 .CTA {
@@ -379,8 +380,9 @@ h3 {
   padding-left: 0;
   gap: 6px;
   font-size: 18px;
-  display: inline-flex;
+  justify-content: center;
   flex-direction: row;
+  display: flex;
 }
 
 .dps li {
