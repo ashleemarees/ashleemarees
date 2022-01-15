@@ -156,7 +156,7 @@ h3 {
      flex-wrap: wrap;
     }
 
-    .embedprotype {
+    .embedprototype {
       display: none;
     }
 
@@ -357,6 +357,7 @@ h3 {
   position: relative;
 	margin: 0;
 	padding: 0;
+  font-weight: 300;
 }
 
 .sectionnav a {
@@ -364,6 +365,7 @@ h3 {
 	display: block;
 	padding: .125rem 0;
 	color: #000;
+  font-weight: 300;
 	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
 }
 
