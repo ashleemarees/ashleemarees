@@ -7,6 +7,7 @@
 </head>
 <script src="toc.js"></script>
 <script src="topnav.js"></script>
+<script src="onclick.js"></script>
 <body>
   <div class="navbar">
     <ul>
@@ -46,39 +47,13 @@
 				They are drawn by MedCerts's commitment to an immersive, virtual program that will pave the way for in-demand jobs in healthcare.
 				MedCerts's Learning Management System fails to deliver, and the entire student experience needs to be modernized.</p>
 			<p class="ptitle">Ethical Heuristic Evaluation: A Study in Transparency</p>
-			<!-- Trigger the Modal -->
 			   <img id="myImg" src="imgs/EthicalHE.png" alt="In this framework, I looked at usability and user response in different categories to evaluate transparency of information.">
-			   
-			   <!-- The Modal -->
-			   <div id="myModal" class="modal">
-			   
-				 <!-- The Close Button -->
-				 <span class="close">&times;</span>
-			   
-				 <!-- Modal Content (The Image) -->
-				 <img class="modal-content" id="img01">
-			   
-				 <!-- Modal Caption (Image Text) -->
-				 <div id="caption"></div><script src="bigpic.js"></script>  
 		</section>
 		<section id="research">
 			<h2>Research</h2>
 			<p>After my initial evaluations of the product and space, I started interviewing external and internal users to identify problems.</p>
 			<p class="ptitle">Affinity Diagraming Stakeholder & Student Feedback</p>
-			 <!-- Trigger the Modal -->
 				<img id="myImg" src="imgs/AFdiagram.png" alt="I interviewed countless internal and external stakeholders and users to identify major issues with the LMS and student experience as a whole.">
-				
-				<!-- The Modal -->
-				<div id="myModal" class="modal">
-				
-				  <!-- The Close Button -->
-				  <span class="close">&times;</span>
-				
-				  <!-- Modal Content (The Image) -->
-				  <img class="modal-content" id="img01">
-				
-				  <!-- Modal Caption (Image Text) -->
-				  <div id="caption"></div></div>
 				  <p>Core Issues with the LMS & Student Process
 					<ul class="problems"><li><b>Text Heavy</b><br>Stakeholders and users alike pointed towards the LMS functioning as nothing but a link repository, which relied on blocks of content to direct and teach students. </li>
 				  <li><b>Navigation</b><br>Getting around the LMS was not cohesive.  Navigating courses and programs was confusing and often mislead students.</li>
@@ -89,7 +64,22 @@
 		<section id="personas">
 			<h2>Personas</h2>
 			<p>User Personas</p>
-			<div class="personas"><img src="imgs/persona.png" width="600px"><img src="imgs/journey.png" width="600px"></div>
+			<img class="myImg" src="imgs/persona.png" alt="Trolltunga, Norway" width="300" height="200">
+<img class="myImg" src="imgs/journey.png" alt="Trolltunga, Norway" width="300" height="200">
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
 		</section>
 		<section id="initial">
 			<h2>Initial Designs</h2>
@@ -121,21 +111,8 @@
 			<h2>Final MVP</h2>
 			<p>The final product will be released in installments, giving students a chance to adjust.</p>
 			<p>Features Release Schedule</p>
-		<!-- Trigger the Modal -->
 		<img id="myImg" src="imgs/FPriority.png" alt="Our Features Priority Chart was used to determine our release schedule.">
-				
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
-		
-		  <!-- The Close Button -->
-		  <span class="close">&times;</span>
-		
-		  <!-- Modal Content (The Image) -->
-		  <img class="modal-content" id="img01">
-		
-		  <!-- Modal Caption (Image Text) -->
-		  <div id="caption"></div>
-		  <p class="ptitle"><a class="CTA" href="https://www.figma.com/proto/YQ50DNv95Q7wt4oNfOopZ6/MedCerts-LMS-Updated?page-id=606%3A515&node-id=705%3A3653&viewport=325%2C48%2C0.03&scaling=scale-down&starting-point-node-id=705%3A3653">Prototype</a></p>	
+		  <p class="ptitle"><a class="CTA" href="#finalptype">Go to Prototype</a></p>	
 		  <p>Zero Height UI Kit and Style Guide</p>
 		  <p class="ptitle"><a class="CTA" href="https://zeroheight.com/75a38ab24">Style Guide</a></p>
 		</section>
