@@ -34,6 +34,7 @@ h3 {
     font-family: 'Nunito Sans';
     font-weight: 500;
     font-size: 18px;
+    padding-bottom: 6px;
   }
 .mobileonlybutton {
   display: none;
@@ -74,6 +75,13 @@ h3 {
   padding-top: 6px;
   padding-bottom: 6px;
   text-align: center;
+}
+.problems {
+  list-style: none;
+  margin-block-start: 0em;
+  margin-right: 4em;
+  padding-inline-start: 0em;
+  padding-right: 6em;
 }
 
 .projects {
@@ -133,7 +141,10 @@ h3 {
   .navbar .icon {
     display: none;
   }
-  
+  .maintext p {
+    padding-right: 18px;
+    padding-bottom: 12px;
+  }
   @media screen and (max-width: 600px) {
     .navbar a:not(:first-child), .dropdown #mywork {
       display: none;
@@ -160,10 +171,6 @@ h3 {
       display: none;
     }
 
-    .sectionnav {
-      visibility: collapse;
-    }
-
     .mobileonlybutton {
       display: inline-block;
       font-family: 'Nunito Sans';
@@ -185,14 +192,6 @@ h3 {
       border: solid 2px #2597EB;
       background-color: #2597EB ;
     } 
-    .intro {
-      padding: 0px;
-      padding-left: 8em;
-      text-align: left;
-    }
-    .introp .intromain {
-      padding: 12px;
-    }
   }
   @media screen and (max-width: 600px) {
     #mywork {
@@ -336,10 +335,10 @@ h3 {
 
 /* 2. Make nav sticky */
 .maintext > nav {
-	position: sticky;
-	top: 2rem;
-	align-self: start;
-  scroll-behavior: smooth;
+  position: fixed;
+  top: 8em;
+  right: 16em;
+  align-self: start;
 }
 
 /* 3. ScrollSpy active styles (see JS tab for activation) */
@@ -366,7 +365,7 @@ h3 {
 	padding: .125rem 0;
 	color: #000;
   font-weight: 300;
-	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+	transition: all 50ms ease-in-out; 
 }
 
 .sectionnav a:hover,
@@ -504,5 +503,20 @@ h3 {
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100vw;
+  }
+  .sectionnav {
+    display: none;
+  }
+  .maintext .intro .introp {
+    width: 100vw;
+    padding: 2em;
+  }
+  .intro {
+    width: 100vw;
+    padding: 2em;
+  }
+  .introp {
+    width: 100vw;
+    padding: 2em;
   }
 }
