@@ -444,7 +444,7 @@ h3 {
 .modal {
   display: none; 
   position: fixed; 
-  z-index: 10; 
+  z-index: 999; 
   padding-top: 100px; 
   left: 0;
   top: 0;
@@ -522,3 +522,5 @@ h3 {
     padding: 2em;
   }
 }
+
+
