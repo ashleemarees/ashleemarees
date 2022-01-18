@@ -218,12 +218,14 @@ h3 {
       display: none;
     }
     body .maintext {
-      padding: 12px;
+      padding: 6px;
       width: 80vw;
       max-width: 340px;
+      overflow-wrap: break-word;
     }
     body .navbar {
-      width: 100vw;
+      width: 100%;
+
     }
  /*   .navbar.responsive a {
       text-align: left;
