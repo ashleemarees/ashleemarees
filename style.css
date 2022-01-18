@@ -217,6 +217,14 @@ h3 {
     .navbar.responsive .otherlink {
       display: none;
     }
+    body .maintext {
+      padding: 12px;
+      width: 80vw;
+      max-width: 340px;
+    }
+    body .navbar {
+      width: 100vw;
+    }
  /*   .navbar.responsive a {
       text-align: left;
       display: block;
