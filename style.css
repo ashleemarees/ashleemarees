@@ -194,6 +194,12 @@ h3 {
       border: solid 2px #2597EB;
       background-color: #2597EB ;
     } 
+    .myImg {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      max-width: 300px;
+    }
   }
   @media screen and (max-width: 600px) {
     #mywork {
@@ -434,6 +440,7 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  align-self: center;
   max-width: 800px;
 }
 
