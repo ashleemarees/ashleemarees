@@ -530,9 +530,7 @@ h3 {
   .modal-content {
     width: 100vw;
   }
-  .sectionnav {
-    display: none;
-  }
+
   .maintext .intro .introp {
     width: 100vw;
     padding: 2em;
@@ -547,4 +545,9 @@ h3 {
   }
 }
 
+@media only screen and (max-width: 800px){
+.sectionnav {
+  display: none;
+}
+}
 
