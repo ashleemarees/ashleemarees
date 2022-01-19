@@ -194,11 +194,9 @@ h3 {
       border: solid 2px #2597EB;
       background-color: #2597EB ;
     } 
-    .myImg {
-      border-radius: 5px;
-      cursor: pointer;
+    body .myImg {
       transition: 0.3s;
-      max-width: 300px;
+      max-width: 350px;
     }
   }
   @media screen and (max-width: 600px) {
@@ -209,6 +207,17 @@ h3 {
       display: inline-flex;
       flex-direction: column;
     }
+
+    body .dps {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .problems {
+      margin-right: 6px;
+      padding-right: 0px;
+    }
+    
 .navbar.responsive a.icon {
       display: block;
       position: absolute;
@@ -227,7 +236,6 @@ h3 {
     }
     body .navbar {
       width: 100%;
-
     }
  /*   .navbar.responsive a {
       text-align: left;
@@ -428,7 +436,6 @@ h3 {
 }
 
 .dps li {
-  width: 300px;
   border: solid 1px #2597EB;
   height: 50px;
   border-radius: 12px;
