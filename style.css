@@ -44,7 +44,7 @@ h3 {
   position: relative;
   text-align: center;
   text-align: center;
-  padding: 1em 8em;
+  padding: 1em 10em ;
   gap: 12px;
   width: 100vw;
 }
@@ -538,13 +538,17 @@ h3 {
     width: 100vw;
   }
 
-  .maintext .intro .introp {
+  .maintext {
     width: 100vw;
     padding: 2em;
   }
   .intro {
     width: 100vw;
-    padding: 2em;
+    padding: 12px;
+  }
+  .intromain {
+    width: 100vw;
+    padding: 12px;
   }
   .introp {
     width: 80vw;
