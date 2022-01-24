@@ -14,7 +14,6 @@ html::before {
 
 * {
   margin: 0px;
-  min-height: 100%;
   box-sizing: border-box;
 }
 
@@ -236,6 +235,11 @@ h3 {
     }
     body .navbar {
       width: 100%;
+    }
+
+    .text {
+      height: fit-content;
+      opacity: 1;
     }
  /*   .navbar.responsive a {
       text-align: left;
