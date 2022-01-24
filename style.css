@@ -197,6 +197,9 @@ h3 {
       transition: 0.3s;
       max-width: 350px;
     }
+    body {
+      overflow-x: clip;
+    }
   }
   @media screen and (max-width: 600px) {
     #mywork {
