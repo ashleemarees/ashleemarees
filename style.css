@@ -42,7 +42,7 @@ h3 {
   display: inline-flex;
   flex-direction: column;
   position: relative;
-  text-align: center;
+  align-items: center;
   text-align: center;
   padding: 1em 10em ;
   gap: 12px;
