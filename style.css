@@ -301,6 +301,16 @@ h3 {
   background-color: #2597EB ;
 }
 
+.scrollup {
+
+}
+.scrollup:before {
+
+}
+
+.scrollup:hover {
+  
+}
   .navbar a {
     text-decoration: none;
     position: relative;
