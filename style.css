@@ -302,15 +302,14 @@ h3 {
 }
 
 .scrollup {
-
-}
-.scrollup:before {
-
+  border-style: none;
+  color: #2597EB;
 }
 
 .scrollup:hover {
-  
+  color: #1069AA;
 }
+
   .navbar a {
     text-decoration: none;
     position: relative;
