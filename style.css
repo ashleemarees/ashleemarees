@@ -565,9 +565,15 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1129px){
 .sectionnav {
   display: none;
 }
+}
+
+@media only screen and (max-width: 1130px){
+  .maintext > nav {
+   right: 2em;
+  }
 }
 
