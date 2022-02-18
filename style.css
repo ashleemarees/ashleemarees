@@ -571,7 +571,7 @@ h3 {
 }
 }
 
-@media only screen and (max-width: 1130px){
+@media only screen and (max-width: 1350px){
   .maintext > nav {
    right: 2em;
   }
