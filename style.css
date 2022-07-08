@@ -157,6 +157,7 @@ h3 {
     padding-right: 18px;
     padding-bottom: 12px;
     max-width: 800px;
+    color: #D9DADC;
   }
   @media screen and (max-width: 600px) {
     .navbar a:not(:first-child), .dropdown #mywork {
@@ -325,7 +326,7 @@ h3 {
   .navbar a {
     text-decoration: none;
     position: relative;
-    color: #010F18;
+    color: #D9DADC;
     line-height: 50px;
     width: 10em;
   }
@@ -334,7 +335,7 @@ h3 {
     float: right;
     position: relative;
     text-decoration: none;
-    color: #010F18;
+    color: #D9DADC;
     line-height: 50px;
     display: inline-flex;
     flex-direction: row;
