@@ -22,12 +22,14 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   background-color: #030303;
+  color: #D9DADC;
 }
 
 h1 {
     font-family: 'Nunito Sans';
     font-weight: 600;
     font-size: 24px;
+    color: #D9DADC;
   }
 
 h3 {
@@ -35,6 +37,7 @@ h3 {
     font-weight: 500;
     font-size: 18px;
     padding-bottom: 6px;
+    color: #D9DADC;
   }
 .mobileonlybutton {
   display: none;
@@ -62,6 +65,7 @@ h3 {
 .intro h1 {    
   font-weight: 800;
   font-size: 32px;
+  color: #D9DADC;
 }
 
 .introp {
