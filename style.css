@@ -301,17 +301,15 @@ h3 {
   padding: 8px 24px;
   width: max-content;
   border-radius: 48px;
-  color: #D96BFF;
+  color: #61E6EE;
   align-self: center;
-  border: solid 2px #D96BFF;
-  background-color: #E9F3FE ;
+  border: solid 2px #61E6EE;
 }
 
 .CTA:hover {
-  color: #030303 !important;
+  color: #00CAD7 !important;
   text-decoration: none;
-  border: solid 2px #D96BFF;
-  background-color: #D96BFF ;
+  border: solid 2px #00CAD7;
 }
 
 .scrollup {
