@@ -194,17 +194,17 @@ h3 {
       padding: 8px 24px;
       width: max-content;
       border-radius: 48px;
-      color: #2597EB;
+      color: #D96BFF;
       align-self: center;
-      border: solid 2px #2597EB;
+      border: solid 2px #D96BFF;
       background-color: #E9F3FE ;
     }
     
     .mobileonlybutton:hover {
       color: #030303 !important;
       text-decoration: none;
-      border: solid 2px #2597EB;
-      background-color: #2597EB ;
+      border: solid 2px #D96BFF;
+      background-color: #D96BFF ;
     } 
     body .myImg {
       transition: 0.3s;
@@ -301,26 +301,26 @@ h3 {
   padding: 8px 24px;
   width: max-content;
   border-radius: 48px;
-  color: #2597EB;
+  color: #D96BFF;
   align-self: center;
-  border: solid 2px #2597EB;
+  border: solid 2px #D96BFF;
   background-color: #E9F3FE ;
 }
 
 .CTA:hover {
   color: #030303 !important;
   text-decoration: none;
-  border: solid 2px #2597EB;
-  background-color: #2597EB ;
+  border: solid 2px #D96BFF;
+  background-color: #D96BFF ;
 }
 
 .scrollup {
   border-style: none;
-  color: #2597EB;
+  color: #D96BFF;
 }
 
 .scrollup:hover {
-  color: #1069AA;
+  color: #D96BFF;
 }
 
   .navbar a {
@@ -346,7 +346,7 @@ h3 {
   }
   
   a:hover:not(.active):not(#reflink) {
-    color: #2597EB;
+    color: #D96BFF;
   }
   
   .active {
@@ -368,10 +368,10 @@ h3 {
   }
   
   .dropdown:hover {
-    color: #2597EB;
+    color: #D96BFF;
   }
   #mywork:hover {
-    color: #2597EB;
+    color: #D96BFF;
   }
   .dropdown:hover .ddlist {
     display: inline-flex;
@@ -465,7 +465,7 @@ h3 {
 }
 
 .dps li {
-  border: solid 1px #2597EB;
+  border: solid 1px #D96BFF;
   height: 50px;
   border-radius: 12px;
   line-height: 2.7;
