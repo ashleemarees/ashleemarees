@@ -194,15 +194,15 @@ h3 {
       padding: 8px 24px;
       width: max-content;
       border-radius: 48px;
-      color: #61E6EE;
+      color: #90B5EC;
       align-self: center;
-      border: solid 2px #61E6EE;
+      border: solid 2px #90B5EC;
     }
     
     .mobileonlybutton:hover {
-      color: #00CAD7 !important;
+      color: #6299EC !important;
       text-decoration: none;
-      border: solid 2px #00CAD7;
+      border: solid 2px #6299EC;
     } 
     body .myImg {
       transition: 0.3s;
@@ -299,24 +299,24 @@ h3 {
   padding: 8px 24px;
   width: max-content;
   border-radius: 48px;
-  color: #61E6EE;
+  color: #90B5EC;
   align-self: center;
-  border: solid 2px #61E6EE;
+  border: solid 2px #90B5EC;
 }
 
 .CTA:hover {
-  color: #00CAD7 !important;
+  color: #6299EC !important;
   text-decoration: none;
-  border: solid 2px #00CAD7;
+  border: solid 2px #6299EC;
 }
 
 .scrollup {
   border-style: none;
-  color: #D96BFF;
+  color: #D9DADC;
 }
 
 .scrollup:hover {
-  color: #D96BFF;
+  color: #D9DADC;
 }
 
   .navbar a {
@@ -342,7 +342,7 @@ h3 {
   }
   
   a:hover:not(.active):not(#reflink) {
-    color: #D96BFF;
+    color: #E6C1EC;
   }
   
   .active {
@@ -364,10 +364,10 @@ h3 {
   }
   
   .dropdown:hover {
-    color: #D96BFF;
+    color: #E6C1EC;
   }
   #mywork:hover {
-    color: #D96BFF;
+    color: #E6C1EC;
   }
   .dropdown:hover .ddlist {
     display: inline-flex;
@@ -420,7 +420,7 @@ h3 {
 
 .sectionnav a:hover,
 .sectionnav a:focus {
-	color: #D96BFF;
+	color: #D9DADC;
 }
 
 .sectionnav ul, .sectionnav ol {
