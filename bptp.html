@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<script src="toc.js"></script>
+<script src="topnav.js"></script>
+<script src="onclick.js"></script>
+<body>
+  <div class="navbar">
+    <ul>
+      <li class="dropdown">
+        <a id="mywork">My Work<i class="fal fa-caret-down"></i></a>
+        <div class="dropborder">
+          <ul class="ddlist">
+            <li class="dropdown-content"><a href="medcerts.html">MedCerts</a></li>
+            <li class="dropdown-content"><a href="tfc.html">The Food Corridor</a></li>
+            <li class="dropdown-content"><a href="oz.html">Oz Engineering</a></li>
+			<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
+          </ul>
+        </div>
+      </li><li>
+<ul class="otherlink">
+      <li><a href="index.html"><i class="far fa-home"></i></a></li>
+    </ul></li></ul>
+  </div>
+
+<div class="intro">
+<h1>MedCerts LMS Redesign</h1>
+<div class="introp"><h3>UX research involving students and stakeholders leads cohesive redesign of the student experience, with focus on the learning management system.</h3>
+</div>
+</div>
+<div class="maintext"><div class="textproject">
+		<section id="introduction"><h2>Design Principles</h2>
+			<ul class="dps"><li><i class="fal fa-briefcase-medical"></i>Career Centric</li><li><i class="fal fa-clipboard-list-check"></i>Progress Driven</li><li><i class="fal fa-poll"></i>Transparent</li></ul>
+			<section id="finalptype"><h2>Final Prototype</h2>
+      <p><iframe class="embedprototype" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FACTKIDHlGbHjsH8MGVsC0c%2FPortfolio%3Fpage-id%3D0%253A1%26node-id%3D19%253A6502%26viewport%3D380%252C48%252C0.05%26scaling%3Dcontain%26starting-point-node-id%3D19%253A6502%26show-proto-sidebar%3D1" allowfullscreen></iframe></p>
+	  <p class="ptitle"><a class="mobileonlybutton" href="https://www.figma.com/proto/ACTKIDHlGbHjsH8MGVsC0c/Portfolio?page-id=0%3A1&node-id=19%3A6502&viewport=380%2C48%2C0.05&scaling=contain&starting-point-node-id=19%3A6502&show-proto-sidebar=1">Prototype</a></p>
+        </section>
+		<section id="problem">
+			<h2>Problem</h2>
+			<p>MedCerts is bringing in a new crop of students, more familiar with technology.  
+				They are drawn by MedCerts's commitment to an immersive, virtual program that will pave the way for in-demand jobs in healthcare.
+				MedCerts's Learning Management System fails to deliver, and the entire student experience needs to be modernized.</p>
+				<p class="ptitle">Existing Learning Management System</p>
+				<img class="myImg" src="imgs/OldDashboard.png">
+				<img class="myImg" src="imgs/OldIntPage.png">
+				<img class="myImg" src="imgs/OldLessons.png">
+			<p class="ptitle">Ethical Heuristic Evaluation: A Study in Transparency</p>
+			   <img class="myImg" id="myImg01" src="imgs/EthicalHE.png" alt="In this framework, I looked at usability and user response in different categories to evaluate transparency of information.">
+			   <!-- The Modal -->
+    <div id="myModal01" class="modal" onclick="this.style.display='none'">
+
+	<!-- The Close Button -->
+	<span class="close">&times;</span>
+  
+	<!-- Modal Content (The Image) -->
+	<img class="modal-content" id="img01">
+  
+	<!-- Modal Caption (Image Text) -->
+	<div class="caption" id="caption01"></div>
+	<script>
+	  // Get the modal
+	  var modal = document.getElementById("myModal01");
+	  
+	  // Get the image and insert it inside the modal - use its "alt" text as a caption
+	  var img = document.getElementById("myImg01");
+	  var modalImg = document.getElementById("img01");
+	  var captionText = document.getElementById("caption01");
+	  img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	  }
+	  
+	  // Get the <span> element that closes the modal
+	  var span = document.getElementsByClassName("close")[0];
+	  
+	  // When the user clicks on <span> (x), close the modal
+	  span.onclick = function() { 
+		modal.style.display = "none";
+	  }
+	  </script>
+  </div>
+			</section>
+		<section id="research">
+			<h2>Research</h2>
+			<P>I started the process by undertaking a competitive analysis - looking at other online education products.</P>
+			<p class="ptitle">Competitor 1: EdEx</p>
+			<img class="myImg" src="imgs/MCcomp1.png">
+			<p class="ptitle">Competitor 2: Coursera</p>
+			<img class="myImg" src="imgs/MCcomp2.png">
+			<p class="ptitle">Competitor 3: Galvanize</p>
+			<img class="myImg" src="imgs/MCcomp3.png">
+			<p>In all three examples, courses and programs were clearly defined and progress was visible and clear.</p>
+			<p class="ptitle">Competitor Chart</p>
+			<img class="myImg" src="imgs/cvatable.png">
+			<p class="ptitle">Affinity Diagraming Stakeholder & Student Feedback</p>
+			<p>After my initial evaluations of the product and space, I started interviewing external and internal users to identify problems.</p>
+				<img class="myImg" id="myImg02" src="imgs/AFdiagram.png" alt="I interviewed countless internal and external stakeholders and users to identify major issues with the LMS and student experience as a whole.">
+
+<div id="myModal02" class="modal" onclick="this.style.display='none'">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+
+  <!-- Modal Caption (Image Text) -->
+  <div class="caption" id="caption02"></div>
+  <script>
+	// Get the modal
+	var modal = document.getElementById("myModal02");
+	
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.getElementById("myImg02");
+	var modalImg = document.getElementById("img02");
+	var captionText = document.getElementById("caption02");
+	img.onclick = function(){
+	  modal.style.display = "block";
+	  modalImg.src = this.src;
+	  captionText.innerHTML = this.alt;
+	}
+	
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+	
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() { 
+	  modal.style.display = "none";
+	}
+	</script>
+</div>  
+				<p>Core Issues with the LMS & Student Process
+					<ul class="problems"><li><b>Text Heavy</b><br>Stakeholders and users alike pointed towards the LMS functioning as nothing but a link repository, which relied on blocks of content to direct and teach students. </li>
+				  <li><b>Navigation</b><br>Getting around the LMS was not cohesive.  Navigating courses and programs was confusing and often mislead students.</li>
+				  <li><b>Interactivity</b><br>Many of the elements within the LMS are static.  Students are expecting an interactive experience.</li>
+				  <li><b>Broken Processes</b><br>LMS has major accessibility issues.  It is also lacking proper CC and transcripts.</li>
+				  <li><b>Accessibility</b><br>Audit of information architecture is needed to reinstate hierarchies and normalize flows across the student experience.</li></ul></p>
+		</section>
+		<section id="personas">
+			<h2>Personas</h2>
+			<p>User Personas</p>
+<img class="myImg" src="imgs/persona.png">
+<img class="myImg" src="imgs/K12ss.png">
+<img class="myImg" src="imgs/techss.png">
+		</section>
+		<section id="initial">
+			<h2>Initial Designs</h2>
+			<p>Initial ideations and iterations regarding LMS Design.</p>
+			<p class="ptitle">Initial Mid-Fidelity Designs and Prototypes</p>
+			<iframe class="embedprototype" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLNtbcssbreCYHrCE6BQdxm%2FMedCerts-MidFi-Designs%3Fpage-id%3D7%253A920%26node-id%3D1068%253A11663%26viewport%3D380%252C48%252C0.04%26scaling%3Dscale-down%26starting-point-node-id%3D1068%253A11663%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+			<p class="ptitle"><a class="mobileonlybutton" href="https://www.figma.com/proto/LNtbcssbreCYHrCE6BQdxm/MedCerts-MidFi-Designs?page-id=7%3A920&node-id=1068%3A11663&viewport=380%2C48%2C0.04&scaling=scale-down&starting-point-node-id=1068%3A11663&show-proto-sidebar=1">Prototype</a></p>
+		</section>
+		<section id="testing">
+			<h2>Usability Testing</h2>
+			<p>We tested our designs on students and internal users alike in order to make some changes.  With our final MVP, we also sourced users through usabilityhub.com to test usability and reception of general prospective users based on demographic information.</p>
+		<p class="ptitle"><img class="myImg" src=""><img class="myImg" src=""></p>
+			<section id="responsive">
+			<h2>Responsivity</h2>
+			<p>Utilizing interactive components within a mobile-first design approach, the student experience redesign is reponsive on all devices.</p>
+			<p class="ptitle"><img class="myImg" src="imgs/asphone1.png" width="200px"><img class="myImg" src="imgs/asphone2.png" width="200px"><img class="myImg" src="imgs/asphone3.png" width="200px"></p>
+		</section>
+		<section id="k12">
+			<h2>New Requirements and Iterations</h2>
+			<p class="ptitle">White Labeling and specific K12 Requirements</p>
+			<p>MedCerts' completely virtual program offerings caught the attention of others in the virtual education space.  Wanting to offer a customized, thematuc experience for clients, we decided to white label our offerings.</p>
+			<p class="ptitle"><img class="myImg" src="imgs/wllogin.png"><img class="myImg" src="imgs/wlhome.png"></p>
+		</section>
+    <section id="final">
+			<h2>Final MVP</h2>
+			<p>The final product will be released in installments, giving students a chance to adjust.</p>
+			<p>Features Release Schedule</p>
+		<img class="myImg" src="imgs/FPriority.png" alt="Our Features Priority Chart was used to determine our release schedule.">
+		  <p class="ptitle"><a class="scrollup" href="#finalptype"><i class="fas fa-chevron-double-up"></i>Go to Prototype</a></p>	
+		  <p>Zero Height UI Kit and Style Guide</p>
+		  <p class="ptitle"><a class="CTA" href="https://zeroheight.com/75a38ab24">Style Guide</a></p>
+		</section>
+	</div>
+	<nav class="sectionnav">
+		<ol>
+			<li><a href="#introduction">Design Principles</a></li>
+			<li><a href="#finalptype">Final Prototype</a></li>
+			<li><a href="#problem">Problem</a></li>
+			<li><a href="#research">Research</a></li>
+			<li><a href="#personas">Personas</a></li>
+			<li><a href="#initial">Initial Designs</a></li>
+			<li><a href="#testing">Usability Testing</a></li>
+			<li><a href="#responsive">Responsivity</a>
+			<li><a href="#k12">K12 Users</a>
+			<li><a href="#final">Final MVP</a></li>
+		</ol>
+	</nav>
+</div></div>
+</body>
+</html>
