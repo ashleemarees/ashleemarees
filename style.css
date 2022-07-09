@@ -214,16 +214,17 @@ padding: 8px;
       padding: 8px 24px;
       width: max-content;
       border-radius: 48px;
-      color: #D9DADC;
+      color: #030303;
       align-self: center;
-      border: solid 2px #D9DADC;
+      border: solid 2px #B6AAE7;
+      background-color: #B6AAE7;
     }
     
     .mobileonlybutton:hover {
       color: #030303 !important;
       text-decoration: none;
-      border: solid 2px #D9DADC;
-      background-color: #D9DADC;
+      border: solid 2px #7164A8;
+      background-color: #7164A8;
     } 
     body .myImg {
       transition: 0.3s;
@@ -320,16 +321,17 @@ padding: 8px;
   padding: 8px 24px;
   width: max-content;
   border-radius: 48px;
-  color: #D9DADC;
+  color: #030303;
   align-self: center;
-  border: solid 2px #D9DADC;
+  border: solid 2px #B6AAE7;
+  background-color: #B6AAE7;
 }
 
 .CTA:hover {
   color: #030303 !important;
   text-decoration: none;
-  border: solid 2px #D9DADC;
-  background-color: #D9DADC;
+  border: solid 2px #7164A8;
+  background-color: #7164A8;
 }
 
 .scrollup {
