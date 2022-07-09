@@ -214,15 +214,16 @@ padding: 8px;
       padding: 8px 24px;
       width: max-content;
       border-radius: 48px;
-      color: #90B5EC;
+      color: #D9DADC;
       align-self: center;
-      border: solid 2px #90B5EC;
+      border: solid 2px #D9DADC;
     }
     
     .mobileonlybutton:hover {
-      color: #6299EC !important;
+      color: #030303 !important;
       text-decoration: none;
-      border: solid 2px #6299EC;
+      border: solid 2px #D9DADC;
+      background-color: #D9DADC;
     } 
     body .myImg {
       transition: 0.3s;
@@ -319,15 +320,16 @@ padding: 8px;
   padding: 8px 24px;
   width: max-content;
   border-radius: 48px;
-  color: #90B5EC;
+  color: #D9DADC;
   align-self: center;
-  border: solid 2px #90B5EC;
+  border: solid 2px #D9DADC;
 }
 
 .CTA:hover {
-  color: #6299EC !important;
+  color: #030303 !important;
   text-decoration: none;
-  border: solid 2px #6299EC;
+  border: solid 2px #D9DADC;
+  background-color: #D9DADC;
 }
 
 .scrollup {
@@ -362,7 +364,7 @@ padding: 8px;
   }
   
   a:hover:not(.active):not(#reflink) {
-    color: #E6C1EC;
+    color: #D9DADC;
   }
   
   .active {
@@ -384,10 +386,10 @@ padding: 8px;
   }
   
   .dropdown:hover {
-    color: #E6C1EC;
+    color: #D9DADC;
   }
   #mywork:hover {
-    color: #E6C1EC;
+    color: #D9DADC;
   }
   .dropdown:hover .ddlist {
     display: inline-flex;
@@ -480,7 +482,7 @@ padding: 8px;
 }
 
 .dps li {
-  border: solid 1px #61E6EE;
+  border: solid 1px #D9DADC;
   height: 50px;
   border-radius: 12px;
   line-height: 2.7;
@@ -494,7 +496,7 @@ padding: 8px;
   font-size: 24px;
 }
 .dps li:hover {
-  border: solid 1px #00CAD7;
+  border: solid 1px #D9DADC;
 }
 
 .myImg {
