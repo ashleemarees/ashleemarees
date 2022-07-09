@@ -146,10 +146,30 @@ h3 {
     height: 50px;
     width: 100vw;
     position: sticky;
-    border-bottom: 1px solid #818384;
     z-index: 4;
   }
+.navname {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 150px 24px 150px;
+  font-size: 24px;
+font-weight: 600;
+  height: auto;
+  width: 100vw;
+}
 
+.navitem {
+text-decoration: none;
+color: #D9DADC;
+padding: 8px;
+}
+
+.navsoc {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: space-between;
+}
   .navbar .icon {
     display: none;
   }
