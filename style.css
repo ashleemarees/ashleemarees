@@ -111,7 +111,7 @@ h3 {
     position: relative;
 }
 .pmain:hover {
-  opacity: 0.7;
+  opacity: 0;
 }
 
 .himage:hover .text {
@@ -124,15 +124,13 @@ h3 {
   display: inline;
   align-self: center;
   justify-self: center;
-  color: #5C606D;
+  margin-left: -250px;
+  margin-top: 150px;
+  color: #fff;
   font-weight: 600;
-  font-size: 32px;
-  font-variant: all-petite-caps;
-  color: #D9DADC;
+  font-size: 28px;
   opacity: 0;
   z-index: 5;
-  margin-left: -250px;
-  margin-top: 200px;
 }
 
 .navbar {
@@ -154,6 +152,7 @@ h3 {
   padding: 24px 150px 24px 150px;
   font-size: 24px;
 font-weight: 600;
+font-variant: all-petite-caps;
   height: auto;
   width: 100vw;
 }
@@ -168,6 +167,7 @@ padding: 8px;
   display: flex;
   font-size: 16px;
   font-weight: 400;
+  font-variant: normal;
   justify-content: space-between;
 }
   .navbar .icon {
