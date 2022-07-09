@@ -367,6 +367,7 @@ padding: 8px;
   
   a:hover:not(.active):not(#reflink) {
     color: #D9DADC;
+    font-weight: 800;
   }
   
   .active {
