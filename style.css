@@ -136,11 +136,11 @@ h3 {
 .navbar {
     top: 0;
     bottom: 12px;
-    background-color: #8A74F8;
+    background-color: #A293EA;
   font-weight: 600;
   padding-left: 120px;
   padding-right: 120px;
-  color: #FFFFFF;
+  color: #000000;
     height: 50px;
     width: 100vw;
     position: sticky;
