@@ -109,7 +109,10 @@ h3 {
     flex-direction: row;
     width: 25vw;
     position: relative;
+    border-style: solid;
+    border: #000000;
 }
+
 .pmain:hover {
   opacity: 0;
 }
@@ -126,7 +129,7 @@ h3 {
   justify-self: center;
   margin-left: -250px;
   margin-top: 150px;
-  color: #fff;
+  color: #000000;
   font-weight: 600;
   font-size: 28px;
   opacity: 0;
