@@ -21,15 +21,15 @@ body {
   font-family: 'Figtree', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
-  background-color: #030303;
-  color: #D9DADC;
+  background-color: #FFF5E9;
+  color: #000000;
 }
 
 h1 {
     font-family: 'Figtree', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #D9DADC;
+    color: #000000;
   }
 
 h3 {
@@ -37,7 +37,7 @@ h3 {
     font-weight: 500;
     font-size: 18px;
     padding-bottom: 6px;
-    color: #D9DADC;
+    color: #000000;
   }
 .mobileonlybutton {
   display: none;
@@ -51,7 +51,7 @@ h3 {
   padding: 1em 10em ;
   gap: 12px;
   width: 100vw;
-  color: #D9DADC;
+  color: #000000;
 }
 .intro {
   display: inline-flex;
@@ -62,12 +62,12 @@ h3 {
   padding: 1em 28em 1em 10em;
   gap: 12px;
   width: 100vw;
-  color: #D9DADC;
+  color: #000000;
 }
 .intro h1 {    
   font-weight: 800;
   font-size: 32px;
-  color: #D9DADC;
+  color: #000000;
 }
 
 .introp {
@@ -75,14 +75,14 @@ h3 {
   flex-direction: column;
   gap: 12px;
   text-align: left;
-  color: #D9DADC;
+  color: #000000;
 }
 .ptitle {
   font-weight: 600;
   padding-top: 6px;
   padding-bottom: 6px;
   text-align: center;
-  color: #D9DADC;
+  color: #000000;
 }
 .problems {
   list-style: none;
@@ -91,7 +91,7 @@ h3 {
   padding-inline-start: 0em;
   padding-right: 6em;
   max-width: 800px;
-  color: #D9DADC;
+  color: #000000;
 }
 
 .projects {
@@ -136,11 +136,11 @@ h3 {
 .navbar {
     top: 0;
     bottom: 12px;
-    background-color: #1A1A1B;
+    background-color: #8A74F8;
   font-weight: 600;
   padding-left: 120px;
   padding-right: 120px;
-  color: #D9DADC;
+  color: #000000;
     height: 50px;
     width: 100vw;
     position: sticky;
@@ -159,7 +159,7 @@ font-variant: all-petite-caps;
 
 .navitem {
 text-decoration: none;
-color: #D9DADC;
+color: #000000;
 padding: 8px;
 }
 
@@ -177,7 +177,7 @@ padding: 8px;
     padding-right: 18px;
     padding-bottom: 12px;
     max-width: 800px;
-    color: #D9DADC;
+    color: #000000;
   }
   @media screen and (max-width: 600px) {
     .navbar a:not(:first-child), .dropdown #mywork {
@@ -214,14 +214,14 @@ padding: 8px;
       padding: 8px 24px;
       width: max-content;
       border-radius: 48px;
-      color: #030303;
+      color: #FFF5E9;
       align-self: center;
       border: solid 2px #B6AAE7;
       background-color: #B6AAE7;
     }
     
     .mobileonlybutton:hover {
-      color: #030303 !important;
+      color: #FFF5E9 !important;
       text-decoration: none;
       border: solid 2px #7164A8;
       background-color: #7164A8;
@@ -321,14 +321,14 @@ padding: 8px;
   padding: 8px 24px;
   width: max-content;
   border-radius: 48px;
-  color: #030303;
+  color: #FFF5E9;
   align-self: center;
   border: solid 2px #B6AAE7;
   background-color: #B6AAE7;
 }
 
 .CTA:hover {
-  color: #030303 !important;
+  color: #FFF5E9 !important;
   text-decoration: none;
   border: solid 2px #7164A8;
   background-color: #7164A8;
@@ -336,17 +336,17 @@ padding: 8px;
 
 .scrollup {
   border-style: none;
-  color: #D9DADC;
+  color: #000000;
 }
 
 .scrollup:hover {
-  color: #D9DADC;
+  color: #000000;
 }
 
   .navbar a {
     text-decoration: none;
     position: relative;
-    color: #D9DADC;
+    color: #000000;
     line-height: 50px;
     width: 10em;
   }
@@ -355,7 +355,7 @@ padding: 8px;
     float: right;
     position: relative;
     text-decoration: none;
-    color: #D9DADC;
+    color: #000000;
     line-height: 50px;
     display: inline-flex;
     flex-direction: row;
@@ -366,7 +366,7 @@ padding: 8px;
   }
   
   a:hover:not(.active):not(#reflink) {
-    color: #D9DADC;
+    color: #000000;
     font-weight: 800;
   }
   
@@ -382,17 +382,17 @@ padding: 8px;
   
   .dropdown-content {
     display: none;
-    background-color: #030303;
+    background-color: #FFF5E9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
   }
   
   .dropdown:hover {
-    color: #D9DADC;
+    color: #000000;
   }
   #mywork:hover {
-    color: #D9DADC;
+    color: #000000;
   }
   .dropdown:hover .ddlist {
     display: inline-flex;
@@ -419,7 +419,7 @@ padding: 8px;
 
 /* 3. ScrollSpy active styles (see JS tab for activation) */
 .sectionnav li.active > a {
-	color: #D9DADC;
+	color: #000000;
 	font-weight: 600;
 }
 
@@ -431,21 +431,21 @@ padding: 8px;
   display: inline-block;
 	padding: 1em 4em 1em 1em;
   font-weight: 300;
-  background-color: #1A1A1B;
+  background-color: #FFFFFF;
 }
 
 .sectionnav a {
 	text-decoration: none;
 	display: block;
 	padding: .125rem 0;
-	color: #D9DADC;
+	color: #000000;
   font-weight: 300;
 	transition: all 50ms ease-in-out; 
 }
 
 .sectionnav a:hover,
 .sectionnav a:focus {
-	color: #D9DADC;
+	color: #000000;
 }
 
 .sectionnav ul, .sectionnav ol {
@@ -482,11 +482,11 @@ padding: 8px;
   justify-content: center;
   flex-direction: row;
   display: flex;
-  background-color: #1A1A1B;
+  background-color: #FFFFFF;
 }
 
 .dps li {
-  border: solid 1px #D9DADC;
+  border: solid 1px #000000;
   height: 50px;
   border-radius: 12px;
   line-height: 2.7;
@@ -500,7 +500,7 @@ padding: 8px;
   font-size: 24px;
 }
 .dps li:hover {
-  border: solid 1px #D9DADC;
+  border: solid 1px #000000;
 }
 
 .myImg {
@@ -525,7 +525,7 @@ padding: 8px;
   width: 100%; 
   height: 100%; 
   overflow: auto;
-  background-color: #030303;
+  background-color: #FFF5E9;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -542,7 +542,7 @@ padding: 8px;
   width: 80%;
   max-width: 700px;
   text-align: center;
-  color: #D9DADC;
+  color: #000000;
   padding: 10px 0;
   height: 150px;
 }
@@ -563,7 +563,7 @@ padding: 8px;
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #D9DADC;
+  color: #000000;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -571,7 +571,7 @@ padding: 8px;
 
 .close:hover,
 .close:focus {
-  color: #D9DADC;
+  color: #000000;
   text-decoration: none;
   cursor: pointer;
 }
