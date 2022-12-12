@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
 /* 1. Enable smooth scrolling */
 html {
 	scroll-behavior: smooth;
@@ -18,7 +18,7 @@ html::before {
 }
 
 body {
-  font-family: 'Nunito Sans';
+  font-family: 'Figtree', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   background-color: #030303;
@@ -26,14 +26,14 @@ body {
 }
 
 h1 {
-    font-family: 'Nunito Sans';
+    font-family: 'Figtree', sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #D9DADC;
   }
 
 h3 {
-    font-family: 'Nunito Sans';
+    font-family: 'Figtree', sans-serif;
     font-weight: 500;
     font-size: 18px;
     padding-bottom: 6px;
@@ -207,7 +207,7 @@ padding: 8px;
 
     .mobileonlybutton {
       display: inline-block;
-      font-family: 'Nunito Sans';
+      font-family: 'Figtree', sans-serif;
       text-decoration: none;
       font-size: 16px;
       font-weight: 500;
@@ -314,7 +314,7 @@ padding: 8px;
 
 .CTA {
   display: inline-block;
-  font-family: 'Nunito Sans';
+  font-family: 'Figtree', sans-serif;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
