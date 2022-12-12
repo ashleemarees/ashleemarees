@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<script src="toc.js"></script>
+<script src="topnav.js"></script>
+<script src="onclick.js"></script>
+<body>
+  <div class="navbar">
+    <ul>
+      <li class="dropdown">
+        <a id="mywork">My Work<i class="fal fa-caret-down"></i></a>
+        <div class="dropborder">
+          <ul class="ddlist">
+			<li class="dropdown-content"><a href="medcerts.html">MedCerts</a></li>
+			<li class="dropdown-content"><a href="tfc.html">The Food Corridor</a></li>
+			<li class="dropdown-content"><a href="oz.html">Oz: Transportation</a></li>
+			<li class="dropdown-content"><a href="bptp.html">Blueprint Test Prep</a></li>
+			<li class="dropdown-content"><a href="designchallenge.html">Design Challenges</a></li>
+			<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
+          </ul>
+        </div>
+      </li><li>
+<ul class="otherlink">
+      <li><a href="index.html"><i class="far fa-home"></i></a></li>
+    </ul></li></ul>
+  </div>
+
+<div class="intro">
+<h1>Major Insurance Company - Designing for Modernization</h1>
+<div class="introp"><h3>How do you assess user needs and redesign for a major insurance company? Focusing on growth and retention.</h3>
+	<p>Work In Progress</p>
+</div>
+</div> 
+<div class="maintext"><div class="textproject">
+		<section id="introduction"><h2>Design Principles</h2>
+			<ul class="dps"><li><i class="fal fa-lightbulb-on"></i>Intuitive</li><li><i class="fal fa-info-circle"></i>Information Lead</li><li><i class="fal fa-brain"></i>Thought Provoking</li></ul>
+			<section id="finalptype"><h2>Final Prototype</h2>
+      <p><iframe class="embedprototype" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFlKzK7PjcejRhV2WTazrhs%2FPortfolio-WERCM%3Fpage-id%3D582%253A0%26node-id%3D850%253A0%26viewport%3D2949%252C-979%252C0.48%26scaling%3Dscale-down%26starting-point-node-id%3D850%253A0" allowfullscreen></iframe></p>
+	  <p class="ptitle"><a class="mobileonlybutton" href="https://www.figma.com/proto/FlKzK7PjcejRhV2WTazrhs/Portfolio-WERCM?page-id=582%3A0&node-id=850%3A0&viewport=2949%2C-979%2C0.48&scaling=scale-down&starting-point-node-id=850%3A0">Prototype</a></p>
+        </section>
+		<section id="problem">
+			<h2>Problem</h2>
+			<p>Phoenix area utility workers have used a virtual content and document repository for years to access important files and informaiton about power and water plants.  The site requires a massive learning curves and contains many dark UI patterns and hidden information.  Information architecture is a mess and newer recruits are getting lost in the process of trying to identify a document or hunt down specs. 
+			</p><p>How do we redesign this repository so information is easier to locate?</p>
+				<p class="ptitle">Work In Progress</p>
+				<img class="myImg" src="imgs/WERCMOld1.png">
+				<img class="myImg" src="imgs/WERCMOld2.png">
+			<p class="ptitle">Where am I? What am I looked for? Evaluating exisitng Information Architecture.</p>
+			   <img class="myImg" id="myImg01" src="imgs/WERCMIA.png" alt="In this framework, I looked at usability and user response in different categories to evaluate transparency of information.">
+				 <!-- The Modal -->
+    <div id="myModal01" class="modal" onclick="this.style.display='none'">
+
+	<!-- The Close Button -->
+	<span class="close">&times;</span>
+  
+	<!-- Modal Content (The Image) -->
+	<img class="modal-content" id="img01">
+  
+	<!-- Modal Caption (Image Text) -->
+	<div class="caption" id="caption01"></div>
+	<script>
+	  // Get the modal
+	  var modal = document.getElementById("myModal01");
+	  
+	  // Get the image and insert it inside the modal - use its "alt" text as a caption
+	  var img = document.getElementById("myImg01");
+	  var modalImg = document.getElementById("img01");
+	  var captionText = document.getElementById("caption01");
+	  img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	  }
+	  
+	  // Get the <span> element that closes the modal
+	  var span = document.getElementsByClassName("close")[0];
+	  
+	  // When the user clicks on <span> (x), close the modal
+	  span.onclick = function() { 
+		modal.style.display = "none";
+	  }
+	  </script>
+  </div>
+			</section>
+		<section id="research">
+			<h2>Research</h2>
+			<P>Content or Documents? Evaluating similar products.</P>
+			<p class="ptitle">WIX Page Builder</p>
+			<img class="myImg" src="imgs/wercmc2.png">
+			<p class="ptitle">JIRA</p>
+			<img class="myImg" src="imgs/wercmc1.png">
+			<p>In the above, courses and programs were clearly defined and progress was visible and clear.</p>
+			<p class="ptitle">Creating hierarchies and categories.</p>
+			<p>After my initial evaluations of the product and space, I started interviewing external and internal users to identify problems.</p>
+				<img class="myImg" src="imgs/wercmc3.png" alt="Teams has space for files, content, and chat functionality.">
+				<p>Navigating the current product - blocks in experience.
+					<ul class="problems"><li><b>Hidden Information</b><br>Information was hidden under several layers. It was extremely difficult for users to get what they needed.  They ended up clicking through tons of unrealted pages to even find something remotely usable.</li>
+				  <li><b>Duplicated Information</b><br>Information was often duplicated across files.  Many Wikis were in multiple spots and locations.  Many documents floated around in various spots and had no real "home".</li>
+				  <li><b>No Deliniations</b><br></li>
+				  <li><b>Broken Processes</b><br>LMS has major accessibility issues.  It is also lacking proper CC and transcripts.</li>
+				  <li><b>Accessibility</b><br>Audit of information architecture is needed to reinstate hierarchies and normalize flows across the student experience.</li></ul></p>
+		</section>
+		<section id="personas">
+			<h2>Personas</h2>
+			<p>User Personas</p>
+<img class="myImg" src="imgs/wercmuser1.png">
+<img class="myImg" src="imgs/wercmuser2.png">
+		</section>
+		<section id="FA">
+			<h2>Features Audit</h2>
+			<p class="ptitle">To stay competitive, we had to stay focused.  Honing in on scope and auditing our offerings was an essential part of this process.</p>
+			<p>What brings users to cybrary? Who is signing up and to what end? We needed to answer these questions by means of data analysis before building out iterations.</p>
+			<p class="ptitle"><img class="myImg" src="imgs/WercmMF3.png"><img class="myImg" src="imgs/WERCMmf4.png"><img class="myImg" src="imgs/WERCMmf5.png"></p>
+		</section>
+		<section id="initial">
+			<h2>Initial Designs</h2>
+			<p class="ptitle"></p>
+			<p class="ptitle"><img class="myImg" src="imgs/WercmMF1.png"><img class="myImg" src="imgs/WERCMmf2.png"></p>
+		</section>
+		<section id="testing">
+			<h2>Usability Testing</h2>
+			<p>We tested our designs on students and internal users alike in order to make some changes.  With our final MVP, we also sourced users through usabilityhub.com to test usability and reception of general prospective users based on demographic information.</p>
+		<p class="ptitle"><img class="myImg" src=""><img class="myImg" src=""></p>
+			<section id="responsive">
+			<h2>Iterations</h2>
+			<p>Utilizing interactive components within a mobile-first design approach, the student experience redesign is reponsive on all devices.</p>
+			<p class="ptitle"><img class="myImg" src="imgs/wercmtest.png"><img class="myImg" src="imgs/wercmtest2.png"></p>
+		</section>
+    <section id="final">
+			<h2>Final MVP</h2>
+			<p>The effect our renovated product will have on the industry in the Phoenix area.</p>
+			<p>Product Value Add</p>
+		<img class="myImg" id="myImg02" src="imgs/WERCMfeature.png" alt="This analysis chart was shown to clients as a way of providing a summary of requirements, goals, and value.">
+		<div id="myModal02" class="modal" onclick="this.style.display='none'">
+		-->
+		  <!-- The Close Button -->
+		  <span class="close">&times;</span>
+		
+		  <!-- Modal Content (The Image) -->
+		  <img class="modal-content" id="img02">
+		
+		  <!-- Modal Caption (Image Text) -->
+		  <div class="caption" id="caption02"></div>
+		  <script>
+			// Get the modal
+			var modal = document.getElementById("myModal02");
+			
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById("myImg02");
+			var modalImg = document.getElementById("img02");
+			var captionText = document.getElementById("caption02");
+			img.onclick = function(){
+			  modal.style.display = "block";
+			  modalImg.src = this.src;
+			  captionText.innerHTML = this.alt;
+			}
+			
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+			
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			  modal.style.display = "none";
+			}
+			</script>
+		</div>
+		 <p class="ptitle"><a class="scrollup" href="#finalptype"><i class="fas fa-chevron-double-up"></i>Go to Prototype</a></p>	
+		  <p>Zero Height UI Kit and Style Guide</p>
+		  <p class="ptitle"><a class="CTA" href="https://zeroheight.com/71b95e103">Style Guide</a></p>
+		</section>
+	</div>
+	<nav class="sectionnav">
+		<ol>
+			<li><a href="#introduction">Design Principles</a></li>
+			<li><a href="#finalptype">Final Prototype</a></li>
+			<li><a href="#problem">Problem</a></li>
+			<li><a href="#research">Research</a></li>
+			<li><a href="#personas">Personas</a></li>
+			<li><a href="#FA">Features Audit</a>
+			<li><a href="#initial">Initial Designs</a></li>
+			<li><a href="#testing">Usability Testing</a></li>
+			<li><a href="#responsive">Iterations</a>
+			<li><a href="#final">Final MVP</a></li>
+		</ol>
+	</nav>
+</div></div> 
+</body>
+</html>
