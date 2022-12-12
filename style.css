@@ -109,8 +109,8 @@ h3 {
     flex-direction: row;
     width: 25vw;
     position: relative;
-    border-style: solid;
-    border: #000000;
+    border: 1px solid #000;
+    background-color: #000;
 }
 
 .pmain:hover {
