@@ -338,12 +338,27 @@ padding: 8px;
 }
 
 .scrollup {
-  border-style: none;
-  color: #000000;
+  display: inline-block;
+  font-family: 'Figtree', sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 24px;
+  width: max-content;
+  border-radius: 48px;
+  color: #FFF5E9;
+  align-self: center;
+  border: solid 2px #B6AAE7;
+  background-color: #B6AAE7;
+
 }
 
 .scrollup:hover {
-  color: #000000;
+  color: #FFF5E9 !important;
+  text-decoration: none;
+  border: solid 2px #7164A8;
+  background-color: #7164A8;
+
 }
 
   .navbar a {
