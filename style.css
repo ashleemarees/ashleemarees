@@ -485,7 +485,7 @@ padding: 8px;
   justify-content: center;
   flex-direction: row;
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #FFF5E9
 }
 
 .dps li {
@@ -495,7 +495,9 @@ padding: 8px;
   line-height: 2.7;
   width: fit-content;
   padding: 0em 1em 1em 0em;
+  background-color: #FFF;
 }
+
  .dps li .fal {
   width: 50px;
   font-size: 18px;
